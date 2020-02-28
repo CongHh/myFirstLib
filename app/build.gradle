@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-group='com.github.CongHh'
+//group='com.github.CongHh'
 
 android {
     compileSdkVersion 28
