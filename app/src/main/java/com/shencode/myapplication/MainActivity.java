@@ -13,7 +13,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.shencode.mylibrary.util.ImageBase64;
+import static com.shencode.mylibrary.test.test;
 
 public class MainActivity extends AppCompatActivity {
     private WebView web_view;
@@ -46,5 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 return super.shouldOverrideUrlLoading(view, request);
             }
         });
+
+        test();
     }
 }
