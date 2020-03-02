@@ -12,6 +12,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import com.shencode.mylogger.MyLog;
 
 public class MainActivity extends AppCompatActivity {
     private WebView web_view;
