@@ -12,6 +12,9 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import com.shencode.mylogger.LogViewerActivity;
+
+import a.a.a.a;
 
 import static com.shencode.mylibrary.test.test;
 

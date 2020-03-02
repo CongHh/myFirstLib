@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-group='com.github.CongHh'
+//group='com.github.CongHh'
 
 android {
     compileSdkVersion 28
@@ -28,4 +28,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation project(path: ':mylibrary')
+    implementation 'com.bintray:firstLib:1.0'
 }

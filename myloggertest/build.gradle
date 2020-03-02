@@ -1,7 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.novoda.bintray-release'
 
-group='com.github.CongHh'
+//group='com.github.CongHh'
 
 
 android {
@@ -20,11 +21,20 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 
+}
+
+publish {
+    userOrg = 'conghhhh'      // bintray注册的用户名
+    groupId = 'com.bintray'
+    artifactId = 'firstLib'// bintray创建的package
+    publishVersion = '1.0'
+    desc = 'Oh hi, this is a nice description for a project, right?'
+    website = 'https://github.com/CongHh/myFirstLib'
 }
 
 dependencies {
