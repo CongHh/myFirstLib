@@ -29,6 +29,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     //implementation project(path: ':mylibrary')
     //implementation 'com.bintray:firstLib:1.0'
-    implementation 'com.github.CongHh:myFirstLib:2.2'
+    implementation 'com.github.CongHh:myFirstLib:2.3'
     //implementation 'com.bintray:firstLib:1.0'
 }
